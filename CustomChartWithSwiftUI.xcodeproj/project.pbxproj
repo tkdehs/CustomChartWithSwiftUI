@@ -14,6 +14,12 @@
 		F2BAA63D2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */; };
 		F2BAA6472A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */; };
 		F2BAA6492A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */; };
+		F2BAA6572A5E870A00896BE4 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6562A5E870A00896BE4 /* RxBlocking */; };
+		F2BAA6592A5E870A00896BE4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6582A5E870A00896BE4 /* RxCocoa */; };
+		F2BAA65B2A5E870A00896BE4 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65A2A5E870A00896BE4 /* RxRelay */; };
+		F2BAA65D2A5E870A00896BE4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65C2A5E870A00896BE4 /* RxSwift */; };
+		F2BAA65F2A5E870A00896BE4 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65E2A5E870A00896BE4 /* RxTest */; };
+		F2BAA6622A5E879300896BE4 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6612A5E879300896BE4 /* Then.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,7 @@
 		F2BAA6422A5E860900896BE4 /* CustomChartWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomChartWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2BAA6612A5E879300896BE4 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAA65F2A5E870A00896BE4 /* RxTest in Frameworks */,
+				F2BAA65B2A5E870A00896BE4 /* RxRelay in Frameworks */,
+				F2BAA6592A5E870A00896BE4 /* RxCocoa in Frameworks */,
+				F2BAA65D2A5E870A00896BE4 /* RxSwift in Frameworks */,
+				F2BAA6572A5E870A00896BE4 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +106,7 @@
 		F2BAA62A2A5E860800896BE4 /* CustomChartWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F2BAA6602A5E878000896BE4 /* Util */,
 				F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
@@ -127,6 +140,14 @@
 			path = CustomChartWithSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		F2BAA6602A5E878000896BE4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA6612A5E879300896BE4 /* Then.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +164,13 @@
 			dependencies = (
 			);
 			name = CustomChartWithSwiftUI;
+			packageProductDependencies = (
+				F2BAA6562A5E870A00896BE4 /* RxBlocking */,
+				F2BAA6582A5E870A00896BE4 /* RxCocoa */,
+				F2BAA65A2A5E870A00896BE4 /* RxRelay */,
+				F2BAA65C2A5E870A00896BE4 /* RxSwift */,
+				F2BAA65E2A5E870A00896BE4 /* RxTest */,
+			);
 			productName = CustomChartWithSwiftUI;
 			productReference = F2BAA6282A5E860800896BE4 /* CustomChartWithSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,9 @@
 				Base,
 			);
 			mainGroup = F2BAA61F2A5E860800896BE4;
+			packageReferences = (
+				F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F2BAA6292A5E860800896BE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
+				F2BAA6622A5E879300896BE4 /* Then.swift in Sources */,
 				F2BAA62C2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +609,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2BAA6562A5E870A00896BE4 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		F2BAA6582A5E870A00896BE4 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F2BAA65A2A5E870A00896BE4 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		F2BAA65C2A5E870A00896BE4 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F2BAA65E2A5E870A00896BE4 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2BAA6202A5E860800896BE4 /* Project object */;
 }
