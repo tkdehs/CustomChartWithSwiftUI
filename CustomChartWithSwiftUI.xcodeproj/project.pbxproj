@@ -14,12 +14,15 @@
 		F2BAA63D2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */; };
 		F2BAA6472A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */; };
 		F2BAA6492A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */; };
-		F2BAA6572A5E870A00896BE4 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6562A5E870A00896BE4 /* RxBlocking */; };
-		F2BAA6592A5E870A00896BE4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6582A5E870A00896BE4 /* RxCocoa */; };
-		F2BAA65B2A5E870A00896BE4 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65A2A5E870A00896BE4 /* RxRelay */; };
-		F2BAA65D2A5E870A00896BE4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65C2A5E870A00896BE4 /* RxSwift */; };
-		F2BAA65F2A5E870A00896BE4 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA65E2A5E870A00896BE4 /* RxTest */; };
 		F2BAA6622A5E879300896BE4 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6612A5E879300896BE4 /* Then.swift */; };
+		F2BAA6652A5E8BED00896BE4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6642A5E8BED00896BE4 /* RxCocoa */; };
+		F2BAA6672A5E8BED00896BE4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2BAA6662A5E8BED00896BE4 /* RxSwift */; };
+		F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6692A5E8D5800896BE4 /* Define.swift */; };
+		F2BAA6952A5E90D400896BE4 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6912A5E90D400896BE4 /* NotoSansKR-Black.otf */; };
+		F2BAA6962A5E90D400896BE4 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6922A5E90D400896BE4 /* NotoSansKR-Medium.otf */; };
+		F2BAA6972A5E90D400896BE4 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6932A5E90D400896BE4 /* NotoSansKR-Regular.otf */; };
+		F2BAA6982A5E90D400896BE4 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6942A5E90D400896BE4 /* NotoSansKR-Bold.otf */; };
+		F2BAA69B2A5E97C800896BE4 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F2BAA6612A5E879300896BE4 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		F2BAA6692A5E8D5800896BE4 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		F2BAA6902A5E8EAF00896BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2BAA6912A5E90D400896BE4 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		F2BAA6922A5E90D400896BE4 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		F2BAA6932A5E90D400896BE4 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		F2BAA6942A5E90D400896BE4 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BAA65F2A5E870A00896BE4 /* RxTest in Frameworks */,
-				F2BAA65B2A5E870A00896BE4 /* RxRelay in Frameworks */,
-				F2BAA6592A5E870A00896BE4 /* RxCocoa in Frameworks */,
-				F2BAA65D2A5E870A00896BE4 /* RxSwift in Frameworks */,
-				F2BAA6572A5E870A00896BE4 /* RxBlocking in Frameworks */,
+				F2BAA6672A5E8BED00896BE4 /* RxSwift in Frameworks */,
+				F2BAA6652A5E8BED00896BE4 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +113,10 @@
 		F2BAA62A2A5E860800896BE4 /* CustomChartWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F2BAA6902A5E8EAF00896BE4 /* Info.plist */,
+				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
+				F2BAA6992A5E978700896BE4 /* Chart */,
 				F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
@@ -148,6 +158,34 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		F2BAA6682A5E8D3D00896BE4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA66B2A5E8E5900896BE4 /* Font */,
+				F2BAA6692A5E8D5800896BE4 /* Define.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F2BAA66B2A5E8E5900896BE4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA6912A5E90D400896BE4 /* NotoSansKR-Black.otf */,
+				F2BAA6942A5E90D400896BE4 /* NotoSansKR-Bold.otf */,
+				F2BAA6922A5E90D400896BE4 /* NotoSansKR-Medium.otf */,
+				F2BAA6932A5E90D400896BE4 /* NotoSansKR-Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F2BAA6992A5E978700896BE4 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,11 +203,8 @@
 			);
 			name = CustomChartWithSwiftUI;
 			packageProductDependencies = (
-				F2BAA6562A5E870A00896BE4 /* RxBlocking */,
-				F2BAA6582A5E870A00896BE4 /* RxCocoa */,
-				F2BAA65A2A5E870A00896BE4 /* RxRelay */,
-				F2BAA65C2A5E870A00896BE4 /* RxSwift */,
-				F2BAA65E2A5E870A00896BE4 /* RxTest */,
+				F2BAA6642A5E8BED00896BE4 /* RxCocoa */,
+				F2BAA6662A5E8BED00896BE4 /* RxSwift */,
 			);
 			productName = CustomChartWithSwiftUI;
 			productReference = F2BAA6282A5E860800896BE4 /* CustomChartWithSwiftUI.app */;
@@ -241,10 +276,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = F2BAA61F2A5E860800896BE4;
 			packageReferences = (
-				F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F2BAA6632A5E8BED00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = F2BAA6292A5E860800896BE4 /* Products */;
 			projectDirPath = "";
@@ -262,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAA6962A5E90D400896BE4 /* NotoSansKR-Medium.otf in Resources */,
+				F2BAA6952A5E90D400896BE4 /* NotoSansKR-Black.otf in Resources */,
 				F2BAA6332A5E860900896BE4 /* Preview Assets.xcassets in Resources */,
 				F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */,
+				F2BAA6982A5E90D400896BE4 /* NotoSansKR-Bold.otf in Resources */,
+				F2BAA6972A5E90D400896BE4 /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +330,8 @@
 			files = (
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
 				F2BAA6622A5E879300896BE4 /* Then.swift in Sources */,
+				F2BAA69B2A5E97C800896BE4 /* BarChartView.swift in Sources */,
+				F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */,
 				F2BAA62C2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +493,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CustomChartWithSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomChartWithSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -479,6 +522,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CustomChartWithSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomChartWithSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -611,7 +655,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		F2BAA6632A5E8BED00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -622,30 +666,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F2BAA6562A5E870A00896BE4 /* RxBlocking */ = {
+		F2BAA6642A5E8BED00896BE4 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
-		};
-		F2BAA6582A5E870A00896BE4 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = F2BAA6632A5E8BED00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		F2BAA65A2A5E870A00896BE4 /* RxRelay */ = {
+		F2BAA6662A5E8BED00896BE4 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		F2BAA65C2A5E870A00896BE4 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = F2BAA6632A5E8BED00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
-		};
-		F2BAA65E2A5E870A00896BE4 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2BAA6552A5E870A00896BE4 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
