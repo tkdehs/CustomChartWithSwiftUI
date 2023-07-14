@@ -9,7 +9,6 @@ import SwiftUI
 import RxSwift
 
 struct ContentView: View {
-    
     @State var data: String = "0"
     
     var body: some View {
@@ -20,6 +19,13 @@ struct ContentView: View {
             Text(data)
                 .font(FONT_NOTOSANS_KR_BOLD(30))
                 .padding()
+                .background(.yellow)
+                .border(Color.purple, width: 1)
+            Text(data)
+                .font(FONT_NOTOSANS_KR_BOLD(30))
+                .background(.yellow)
+                .padding()
+                .border(Color.purple, width: 1)
             Button {
                 data = "\(Int.random(in: 1...100))"
             } label : {

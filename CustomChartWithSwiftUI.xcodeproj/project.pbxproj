@@ -23,6 +23,15 @@
 		F2BAA6972A5E90D400896BE4 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6932A5E90D400896BE4 /* NotoSansKR-Regular.otf */; };
 		F2BAA6982A5E90D400896BE4 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6942A5E90D400896BE4 /* NotoSansKR-Bold.otf */; };
 		F2BAA69B2A5E97C800896BE4 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */; };
+		F2BAA69F2A60E91000896BE4 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA69E2A60E91000896BE4 /* HStack.swift */; };
+		F2BAA6A12A60ED7400896BE4 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6A02A60ED7400896BE4 /* VStack.swift */; };
+		F2BAA6A32A610F4000896BE4 /* ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6A22A610F4000896BE4 /* ZStack.swift */; };
+		F2BAA6A52A6110F000896BE4 /* LazyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6A42A6110F000896BE4 /* LazyStack.swift */; };
+		F2BAA6A82A6114C300896BE4 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6A72A6114C300896BE4 /* NumberView.swift */; };
+		F2BAA6AA2A61169100896BE4 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6A92A61169100896BE4 /* Sections.swift */; };
+		F2BAA6AC2A61181C00896BE4 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6AB2A61181C00896BE4 /* EmojiView.swift */; };
+		F2BAA6AE2A6122DF00896BE4 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6AD2A6122DF00896BE4 /* SectionHeaderView.swift */; };
+		F2BAA6B02A61272400896BE4 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6AF2A61272400896BE4 /* Spacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		F2BAA6932A5E90D400896BE4 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		F2BAA6942A5E90D400896BE4 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
 		F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		F2BAA69E2A60E91000896BE4 /* HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
+		F2BAA6A02A60ED7400896BE4 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		F2BAA6A22A610F4000896BE4 /* ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack.swift; sourceTree = "<group>"; };
+		F2BAA6A42A6110F000896BE4 /* LazyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStack.swift; sourceTree = "<group>"; };
+		F2BAA6A72A6114C300896BE4 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		F2BAA6A92A61169100896BE4 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		F2BAA6AB2A61181C00896BE4 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		F2BAA6AD2A6122DF00896BE4 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		F2BAA6AF2A61272400896BE4 /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +131,7 @@
 		F2BAA62A2A5E860800896BE4 /* CustomChartWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F2BAA69C2A60E8A200896BE4 /* LayoutAndPresentations */,
 				F2BAA6902A5E8EAF00896BE4 /* Info.plist */,
 				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
@@ -184,6 +203,38 @@
 				F2BAA69A2A5E97C800896BE4 /* BarChartView.swift */,
 			);
 			path = Chart;
+			sourceTree = "<group>";
+		};
+		F2BAA69C2A60E8A200896BE4 /* LayoutAndPresentations */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA69D2A60E8E000896BE4 /* Stack */,
+			);
+			path = LayoutAndPresentations;
+			sourceTree = "<group>";
+		};
+		F2BAA69D2A60E8E000896BE4 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA6A62A6114A500896BE4 /* Support */,
+				F2BAA69E2A60E91000896BE4 /* HStack.swift */,
+				F2BAA6A02A60ED7400896BE4 /* VStack.swift */,
+				F2BAA6A22A610F4000896BE4 /* ZStack.swift */,
+				F2BAA6A42A6110F000896BE4 /* LazyStack.swift */,
+				F2BAA6A92A61169100896BE4 /* Sections.swift */,
+				F2BAA6AD2A6122DF00896BE4 /* SectionHeaderView.swift */,
+				F2BAA6AF2A61272400896BE4 /* Spacer.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		F2BAA6A62A6114A500896BE4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAA6A72A6114C300896BE4 /* NumberView.swift */,
+				F2BAA6AB2A61181C00896BE4 /* EmojiView.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,11 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAA6AA2A61169100896BE4 /* Sections.swift in Sources */,
+				F2BAA6A12A60ED7400896BE4 /* VStack.swift in Sources */,
+				F2BAA6AE2A6122DF00896BE4 /* SectionHeaderView.swift in Sources */,
+				F2BAA6A52A6110F000896BE4 /* LazyStack.swift in Sources */,
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
+				F2BAA6A82A6114C300896BE4 /* NumberView.swift in Sources */,
+				F2BAA6AC2A61181C00896BE4 /* EmojiView.swift in Sources */,
 				F2BAA6622A5E879300896BE4 /* Then.swift in Sources */,
 				F2BAA69B2A5E97C800896BE4 /* BarChartView.swift in Sources */,
+				F2BAA6B02A61272400896BE4 /* Spacer.swift in Sources */,
+				F2BAA69F2A60E91000896BE4 /* HStack.swift in Sources */,
 				F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */,
 				F2BAA62C2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift in Sources */,
+				F2BAA6A32A610F4000896BE4 /* ZStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
