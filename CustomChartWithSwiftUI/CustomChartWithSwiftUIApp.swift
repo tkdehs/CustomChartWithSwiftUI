@@ -18,7 +18,7 @@ struct MyScene : Scene {
 
     var body: some Scene {
         WindowGroup {
-            LazyStack()
+            ScrollView_Tutorials()
         }
     }
 }
