@@ -65,14 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F2BAA6282A5E860800896BE4 /* CustomChartWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomChartWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		F2BAA62D2A5E860800896BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2BAA62F2A5E860900896BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F2BAA6382A5E860900896BE4 /* CustomChartWithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomChartWithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BAA6382A5E860900896BE4 /* SwiftUIPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUITests.swift; sourceTree = "<group>"; };
-		F2BAA6422A5E860900896BE4 /* CustomChartWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomChartWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BAA6422A5E860900896BE4 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F2BAA6612A5E879300896BE4 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
@@ -137,9 +137,9 @@
 		F2BAA61F2A5E860800896BE4 = {
 			isa = PBXGroup;
 			children = (
-				F2BAA62A2A5E860800896BE4 /* CustomChartWithSwiftUI */,
-				F2BAA63B2A5E860900896BE4 /* CustomChartWithSwiftUITests */,
-				F2BAA6452A5E860900896BE4 /* CustomChartWithSwiftUIUITests */,
+				F2BAA62A2A5E860800896BE4 /* SwiftUIPractice */,
+				F2BAA63B2A5E860900896BE4 /* SwiftUIPracticeTests */,
+				F2BAA6452A5E860900896BE4 /* SwiftUIPracticeUITests */,
 				F2BAA6292A5E860800896BE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,14 +147,14 @@
 		F2BAA6292A5E860800896BE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2BAA6282A5E860800896BE4 /* CustomChartWithSwiftUI.app */,
-				F2BAA6382A5E860900896BE4 /* CustomChartWithSwiftUITests.xctest */,
-				F2BAA6422A5E860900896BE4 /* CustomChartWithSwiftUIUITests.xctest */,
+				F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */,
+				F2BAA6382A5E860900896BE4 /* SwiftUIPracticeTests.xctest */,
+				F2BAA6422A5E860900896BE4 /* SwiftUIPracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2BAA62A2A5E860800896BE4 /* CustomChartWithSwiftUI */ = {
+		F2BAA62A2A5E860800896BE4 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
 				F2BAA69C2A60E8A200896BE4 /* LayoutAndPresentations */,
@@ -167,7 +167,7 @@
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
 				F2BAA6312A5E860900896BE4 /* Preview Content */,
 			);
-			path = CustomChartWithSwiftUI;
+			path = SwiftUIPractice;
 			sourceTree = "<group>";
 		};
 		F2BAA6312A5E860900896BE4 /* Preview Content */ = {
@@ -178,21 +178,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F2BAA63B2A5E860900896BE4 /* CustomChartWithSwiftUITests */ = {
+		F2BAA63B2A5E860900896BE4 /* SwiftUIPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
 				F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */,
 			);
-			path = CustomChartWithSwiftUITests;
+			path = SwiftUIPracticeTests;
 			sourceTree = "<group>";
 		};
-		F2BAA6452A5E860900896BE4 /* CustomChartWithSwiftUIUITests */ = {
+		F2BAA6452A5E860900896BE4 /* SwiftUIPracticeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */,
 				F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */,
 			);
-			path = CustomChartWithSwiftUIUITests;
+			path = SwiftUIPracticeUITests;
 			sourceTree = "<group>";
 		};
 		F2BAA6602A5E878000896BE4 /* Util */ = {
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2BAA6272A5E860800896BE4 /* CustomChartWithSwiftUI */ = {
+		F2BAA6272A5E860800896BE4 /* SwiftUIPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2BAA64C2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUI" */;
+			buildConfigurationList = F2BAA64C2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPractice" */;
 			buildPhases = (
 				F2BAA6242A5E860800896BE4 /* Sources */,
 				F2BAA6252A5E860800896BE4 /* Frameworks */,
@@ -307,18 +307,18 @@
 			);
 			dependencies = (
 			);
-			name = CustomChartWithSwiftUI;
+			name = SwiftUIPractice;
 			packageProductDependencies = (
 				F2BAA6642A5E8BED00896BE4 /* RxCocoa */,
 				F2BAA6662A5E8BED00896BE4 /* RxSwift */,
 			);
 			productName = CustomChartWithSwiftUI;
-			productReference = F2BAA6282A5E860800896BE4 /* CustomChartWithSwiftUI.app */;
+			productReference = F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2BAA6372A5E860900896BE4 /* CustomChartWithSwiftUITests */ = {
+		F2BAA6372A5E860900896BE4 /* SwiftUIPracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2BAA64F2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUITests" */;
+			buildConfigurationList = F2BAA64F2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeTests" */;
 			buildPhases = (
 				F2BAA6342A5E860900896BE4 /* Sources */,
 				F2BAA6352A5E860900896BE4 /* Frameworks */,
@@ -329,14 +329,14 @@
 			dependencies = (
 				F2BAA63A2A5E860900896BE4 /* PBXTargetDependency */,
 			);
-			name = CustomChartWithSwiftUITests;
+			name = SwiftUIPracticeTests;
 			productName = CustomChartWithSwiftUITests;
-			productReference = F2BAA6382A5E860900896BE4 /* CustomChartWithSwiftUITests.xctest */;
+			productReference = F2BAA6382A5E860900896BE4 /* SwiftUIPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F2BAA6412A5E860900896BE4 /* CustomChartWithSwiftUIUITests */ = {
+		F2BAA6412A5E860900896BE4 /* SwiftUIPracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2BAA6522A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUIUITests" */;
+			buildConfigurationList = F2BAA6522A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeUITests" */;
 			buildPhases = (
 				F2BAA63E2A5E860900896BE4 /* Sources */,
 				F2BAA63F2A5E860900896BE4 /* Frameworks */,
@@ -347,9 +347,9 @@
 			dependencies = (
 				F2BAA6442A5E860900896BE4 /* PBXTargetDependency */,
 			);
-			name = CustomChartWithSwiftUIUITests;
+			name = SwiftUIPracticeUITests;
 			productName = CustomChartWithSwiftUIUITests;
-			productReference = F2BAA6422A5E860900896BE4 /* CustomChartWithSwiftUIUITests.xctest */;
+			productReference = F2BAA6422A5E860900896BE4 /* SwiftUIPracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -375,7 +375,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2BAA6232A5E860800896BE4 /* Build configuration list for PBXProject "CustomChartWithSwiftUI" */;
+			buildConfigurationList = F2BAA6232A5E860800896BE4 /* Build configuration list for PBXProject "SwiftUIPractice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -392,9 +392,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2BAA6272A5E860800896BE4 /* CustomChartWithSwiftUI */,
-				F2BAA6372A5E860900896BE4 /* CustomChartWithSwiftUITests */,
-				F2BAA6412A5E860900896BE4 /* CustomChartWithSwiftUIUITests */,
+				F2BAA6272A5E860800896BE4 /* SwiftUIPractice */,
+				F2BAA6372A5E860900896BE4 /* SwiftUIPracticeTests */,
+				F2BAA6412A5E860900896BE4 /* SwiftUIPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -486,12 +486,12 @@
 /* Begin PBXTargetDependency section */
 		F2BAA63A2A5E860900896BE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2BAA6272A5E860800896BE4 /* CustomChartWithSwiftUI */;
+			target = F2BAA6272A5E860800896BE4 /* SwiftUIPractice */;
 			targetProxy = F2BAA6392A5E860900896BE4 /* PBXContainerItemProxy */;
 		};
 		F2BAA6442A5E860900896BE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2BAA6272A5E860800896BE4 /* CustomChartWithSwiftUI */;
+			target = F2BAA6272A5E860800896BE4 /* SwiftUIPractice */;
 			targetProxy = F2BAA6432A5E860900896BE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -618,10 +618,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomChartWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPractice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomChartWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = SwiftUIPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -632,7 +632,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -647,10 +647,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomChartWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPractice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomChartWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = SwiftUIPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -661,7 +661,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -679,12 +679,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipracticeITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomChartWithSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomChartWithSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractice";
 			};
 			name = Debug;
 		};
@@ -698,12 +698,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipracticeITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomChartWithSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomChartWithSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractice";
 			};
 			name = Release;
 		};
@@ -715,7 +715,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -732,7 +732,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.CustomChartWithSwiftUIUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnx.swiftuipracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -744,7 +744,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2BAA6232A5E860800896BE4 /* Build configuration list for PBXProject "CustomChartWithSwiftUI" */ = {
+		F2BAA6232A5E860800896BE4 /* Build configuration list for PBXProject "SwiftUIPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BAA64A2A5E860900896BE4 /* Debug */,
@@ -753,7 +753,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2BAA64C2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUI" */ = {
+		F2BAA64C2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BAA64D2A5E860900896BE4 /* Debug */,
@@ -762,7 +762,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2BAA64F2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUITests" */ = {
+		F2BAA64F2A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BAA6502A5E860900896BE4 /* Debug */,
@@ -771,7 +771,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2BAA6522A5E860900896BE4 /* Build configuration list for PBXNativeTarget "CustomChartWithSwiftUIUITests" */ = {
+		F2BAA6522A5E860900896BE4 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BAA6532A5E860900896BE4 /* Debug */,
