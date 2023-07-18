@@ -7,7 +7,10 @@
 
 import Foundation
 
-struct ImageData {
+struct ImageData:Identifiable {
+    var id: String {
+        return name
+    }
     var name = ""
     var filters:[String] = []
     var date:Date = Date()

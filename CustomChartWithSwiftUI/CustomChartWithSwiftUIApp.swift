@@ -18,7 +18,7 @@ struct MyScene : Scene {
 
     var body: some Scene {
         WindowGroup {
-            ScrollView_Tutorials()
+            ScrollView_Tutorials(presentModal: .constant(true))
         }
     }
 }
