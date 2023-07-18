@@ -16,6 +16,7 @@ struct ComposeScene: View {
     var body: some View {
         NavigationView {
             Form {
+                
                 TextField("Title", text: $title)
                     .onChange(of: title) { _ in
                         edited = title != "" || content != ""

@@ -9,16 +9,18 @@ import SwiftUI
 
 @main
 struct SwiftUIPracticeApp: App {
+    
     var body: some Scene {
         MyScene()
     }
 }
 
 struct MyScene : Scene {
-
+    @StateObject var generator:RandomNumberGenerator = RandomNumberGenerator()
     var body: some Scene {
         WindowGroup {
-            ScrollView_Tutorials(presentModal: .constant(true))
+            StateObject_Tutorials()
+                .environmentObject(generator)
         }
     }
 }

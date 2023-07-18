@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F26F70CE2A66484400E33C6C /* OneWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70CD2A66484400E33C6C /* OneWayBinding.swift */; };
+		F26F70D12A664DEA00E33C6C /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70D02A664DEA00E33C6C /* TwoWayBinding.swift */; };
+		F26F70D42A6651D400E33C6C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70D32A6651D400E33C6C /* InputView.swift */; };
+		F26F70D62A66546400E33C6C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70D52A66546400E33C6C /* ViewModel.swift */; };
+		F26F70D82A66554300E33C6C /* ObservableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70D72A66554300E33C6C /* ObservableList.swift */; };
+		F26F70DA2A665C9500E33C6C /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70D92A665C9500E33C6C /* Enviroment.swift */; };
+		F26F70DC2A665E3700E33C6C /* EnviromentObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F70DB2A665E3700E33C6C /* EnviromentObjects.swift */; };
+		F2AC44552A6661EF001452DA /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44542A6661EF001452DA /* StateObject.swift */; };
+		F2AC44572A66620E001452DA /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44562A66620E001452DA /* RandomNumberGenerator.swift */; };
+		F2AC44592A666351001452DA /* RandomNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44582A666351001452DA /* RandomNumberView.swift */; };
 		F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */; };
 		F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62D2A5E860800896BE4 /* ContentView.swift */; };
 		F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA62F2A5E860900896BE4 /* Assets.xcassets */; };
@@ -65,6 +75,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F26F70CD2A66484400E33C6C /* OneWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWayBinding.swift; sourceTree = "<group>"; };
+		F26F70D02A664DEA00E33C6C /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
+		F26F70D32A6651D400E33C6C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F26F70D52A66546400E33C6C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F26F70D72A66554300E33C6C /* ObservableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableList.swift; sourceTree = "<group>"; };
+		F26F70D92A665C9500E33C6C /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		F26F70DB2A665E3700E33C6C /* EnviromentObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentObjects.swift; sourceTree = "<group>"; };
+		F2AC44542A6661EF001452DA /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
+		F2AC44562A66620E001452DA /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		F2AC44582A666351001452DA /* RandomNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberView.swift; sourceTree = "<group>"; };
 		F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		F2BAA62D2A5E860800896BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +154,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F26F70CC2A6645F100E33C6C /* StateAndBinding */ = {
+			isa = PBXGroup;
+			children = (
+				F26F70CF2A66492000E33C6C /* State */,
+			);
+			path = StateAndBinding;
+			sourceTree = "<group>";
+		};
+		F26F70CF2A66492000E33C6C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				F26F70D22A6651C700E33C6C /* Support */,
+				F26F70CD2A66484400E33C6C /* OneWayBinding.swift */,
+				F26F70D02A664DEA00E33C6C /* TwoWayBinding.swift */,
+				F26F70D72A66554300E33C6C /* ObservableList.swift */,
+				F26F70D92A665C9500E33C6C /* Enviroment.swift */,
+				F26F70DB2A665E3700E33C6C /* EnviromentObjects.swift */,
+				F2AC44542A6661EF001452DA /* StateObject.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		F26F70D22A6651C700E33C6C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F26F70D52A66546400E33C6C /* ViewModel.swift */,
+				F26F70D32A6651D400E33C6C /* InputView.swift */,
+				F2AC44562A66620E001452DA /* RandomNumberGenerator.swift */,
+				F2AC44582A666351001452DA /* RandomNumberView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		F2BAA61F2A5E860800896BE4 = {
 			isa = PBXGroup;
 			children = (
@@ -157,11 +210,12 @@
 		F2BAA62A2A5E860800896BE4 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				F2BAA69C2A60E8A200896BE4 /* LayoutAndPresentations */,
 				F2BAA6902A5E8EAF00896BE4 /* Info.plist */,
 				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
 				F2BAA6992A5E978700896BE4 /* Chart */,
+				F2BAA69C2A60E8A200896BE4 /* LayoutAndPresentations */,
+				F26F70CC2A6645F100E33C6C /* StateAndBinding */,
 				F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
@@ -437,30 +491,40 @@
 				F2C1E49F2A651774007F541D /* Overlay.swift in Sources */,
 				F2E7E7022A6629CA00105359 /* InteractiveDismiss.swift in Sources */,
 				F2BAA6AA2A61169100896BE4 /* Sections.swift in Sources */,
+				F26F70DC2A665E3700E33C6C /* EnviromentObjects.swift in Sources */,
 				F2BAA6A12A60ED7400896BE4 /* VStack.swift in Sources */,
 				F2BAA6AE2A6122DF00896BE4 /* SectionHeaderView.swift in Sources */,
 				F2C1E4972A64CD10007F541D /* Group.swift in Sources */,
 				F2BAA6A52A6110F000896BE4 /* LazyStack.swift in Sources */,
 				F2C1E4992A64D0DA007F541D /* ScrollView.swift in Sources */,
 				F2E7E7002A66255D00105359 /* Popover.swift in Sources */,
+				F26F70D12A664DEA00E33C6C /* TwoWayBinding.swift in Sources */,
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
 				F2BAA6A82A6114C300896BE4 /* NumberView.swift in Sources */,
 				F2C1E49B2A64D2F2007F541D /* URLImage.swift in Sources */,
 				F2BAA6AC2A61181C00896BE4 /* EmojiView.swift in Sources */,
 				F2BAA6622A5E879300896BE4 /* Then.swift in Sources */,
 				F2C1E4A92A652DF7007F541D /* ColorData.swift in Sources */,
+				F2AC44552A6661EF001452DA /* StateObject.swift in Sources */,
+				F26F70D82A66554300E33C6C /* ObservableList.swift in Sources */,
 				F2BAA69B2A5E97C800896BE4 /* BarChartView.swift in Sources */,
 				F2BAA6B02A61272400896BE4 /* Spacer.swift in Sources */,
 				F2E7E6FE2A66172500105359 /* Sheet.swift in Sources */,
 				F2C1E49D2A650223007F541D /* Form.swift in Sources */,
 				F2C1E4A72A652BD9007F541D /* ComfirmationDialog.swift in Sources */,
+				F26F70CE2A66484400E33C6C /* OneWayBinding.swift in Sources */,
+				F26F70D62A66546400E33C6C /* ViewModel.swift in Sources */,
 				F2BAA69F2A60E91000896BE4 /* HStack.swift in Sources */,
 				F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */,
 				F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */,
+				F2AC44592A666351001452DA /* RandomNumberView.swift in Sources */,
 				F2C1E4A22A6520CD007F541D /* Alert.swift in Sources */,
 				F2BAA6A32A610F4000896BE4 /* ZStack.swift in Sources */,
+				F26F70D42A6651D400E33C6C /* InputView.swift in Sources */,
 				F2C1E4A52A652912007F541D /* ImageData.swift in Sources */,
 				F2E7E7042A662D3600105359 /* ComposeScene.swift in Sources */,
+				F26F70DA2A665C9500E33C6C /* Enviroment.swift in Sources */,
+				F2AC44572A66620E001452DA /* RandomNumberGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
