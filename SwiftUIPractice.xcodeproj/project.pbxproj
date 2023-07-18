@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2BAA62C2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */; };
+		F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */; };
 		F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62D2A5E860800896BE4 /* ContentView.swift */; };
 		F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA62F2A5E860900896BE4 /* Assets.xcassets */; };
 		F2BAA6332A5E860900896BE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */; };
@@ -66,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUIApp.swift; sourceTree = "<group>"; };
+		F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		F2BAA62D2A5E860800896BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2BAA62F2A5E860900896BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
 				F2BAA6992A5E978700896BE4 /* Chart */,
-				F2BAA62B2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift */,
+				F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
 				F2BAA6312A5E860900896BE4 /* Preview Content */,
@@ -456,7 +456,7 @@
 				F2C1E4A72A652BD9007F541D /* ComfirmationDialog.swift in Sources */,
 				F2BAA69F2A60E91000896BE4 /* HStack.swift in Sources */,
 				F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */,
-				F2BAA62C2A5E860800896BE4 /* CustomChartWithSwiftUIApp.swift in Sources */,
+				F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */,
 				F2C1E4A22A6520CD007F541D /* Alert.swift in Sources */,
 				F2BAA6A32A610F4000896BE4 /* ZStack.swift in Sources */,
 				F2C1E4A52A652912007F541D /* ImageData.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CustomChartWithSwiftUIApp: App {
+struct SwiftUIPracticeApp: App {
     var body: some Scene {
         MyScene()
     }
