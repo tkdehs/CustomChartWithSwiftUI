@@ -8,7 +8,7 @@
 import Foundation
 
 struct AppleProduct: Identifiable, Hashable {
-    var id = UUID()
+    let id = UUID()
     let name: String
     let summary: String
     let category: String
@@ -17,77 +17,138 @@ struct AppleProduct: Identifiable, Hashable {
 
 extension AppleProduct {
     static var sampleList: [AppleProduct] {
-        [AppleProduct(name: "MackBook Air"
-                 , summary: """
-시스템 온 칩(SoC, System on Chip)
-M2 칩
-8코어 CPU(성능 코어 4개 및 효율 코어 4개)
-10코어 GPU
-16코어 Neural Engine
-100GB/s 메모리 대역폭
-"""
-                 , category: "Mac"
-                 , price: 1_890_000),
-         AppleProduct(name: "MackBook Pro 16"
-                  , summary: """
- 시스템 온 칩(SoC, System on Chip)
- M2 Pro 칩
- 12코어 CPU(성능 코어 8개 및 효율 코어 4개)
- 19코어 GPU
- 16코어 Neural Engine
- 200GB/s 메모리 대역폭
- """
-                  , category: "Mac"
-                  , price: 3_490_000),
-         AppleProduct(name: "iPad Pro 12.9"
-                  , summary: """
- Liquid Retina XDR 디스플레이
- 32.8cm(대각선) 미니 LED 백라이트 Multi‑Touch 디스플레이(IPS 기술)
- 2596개의 풀 어레이 로컬 디밍 존을 갖춘 2D 백라이팅 시스템
- 2732 x 2048 픽셀 해상도(264ppi)
- ProMotion 기술
- 와이드 컬러 디스플레이(P3)
- True Tone 디스플레이
- 지문 및 유분 방지 코팅
- 전면 라미네이팅 처리된 디스플레이
- 반사 방지 코팅
- 1.8% 반사율
- SDR 밝기: 600 니트 전체 최대
- XDR 밝기: 1000 니트 전체 화면 최대,
- 1600 니트 부분 최대(HDR 콘텐츠에만 적용)
- 1,000,000:1 명암비
- Apple Pencil(2세대) 지원
- Apple Pencil 호버
- """
-                  , category: "iPad"
-                  , price: 1_729_000),
-         AppleProduct(name: "iPhone 14 Pro"
-                  , summary: """
- Dynamic Island
- 상시표시형 디스플레이
- 최대 120Hz 가변 재생률을 제공하는 ProMotion 기술
- HDR 디스플레이
- True Tone
- 넓은 색영역(P3)
- 햅틱 터치
- 2,000,000:1 명암비(일반)
- 1000 니트 전체 최대 밝기(일반); 1600 니트 부분 최대 밝기(HDR); 2000 니트 부분 최대 밝기(야외)
- 지문 및 유분 방지 코팅
- 여러 언어 및 문자 동시 표시 지원
- """
-                  , category: "iPhone"
-                  , price: 1_729_000),
-         AppleProduct(name: "iPhone 12"
-                  , summary: """
- HDR 디스플레이
- True Tone
- 넓은 색영역(P3)
- 1,000,000:1 명암비(일반)
- 1000 니트 전체 최대 밝기(일반); 1600 니트 부분 최대 밝기(HDR); 2000 니트 부분 최대 밝기(야외)
- 지문 및 유분 방지 코팅
- 여러 언어 및 문자 동시 표시 지원
- """
-                  , category: "iPhone"
-                  , price: 1_029_000)]
+        return [
+            AppleProduct(name: "MacBook Air",
+                         summary: """
+                        Apple M1 칩(8코어 CPU, 8코어 GPU, 16코어 Neural Engine)
+                        8GB 통합 메모리
+                        512GB SSD 저장 장치¹
+                        True Tone이 탑재된 Retina 디스플레이
+                        Magic Keyboard
+                        Touch ID
+                        Force Touch 트랙패드
+                        Thunderbolt/USB 4 포트 2개
+                        """,
+                         category: "Mac",
+                         price: 1_630_000),
+            AppleProduct(name: "MacBook Pro",
+                         summary: """
+                        16코어 Neural Engine
+                        16형 Liquid Retina XDR 디스플레이
+                        Thunderbolt 4 포트 3개, HDMI 포트, SDXC 카드 슬롯, MagSafe 3 포트
+                        Touch ID 탑재형 Magic Keyboard
+                        Force Touch 트랙패드
+                        140W USB-C 전원 어댑터
+                        """,
+                         category: "Mac",
+                         price: 4_710_000),
+            AppleProduct(name: "iMac Retina 5K",
+                         summary: """
+                        3.8GHz 8코어 10세대 Intel Core i7 프로세서
+                        최대 5.0GHz Turbo Boost
+                        8GB 2666MHz DDR4 메모리(최대 128GB로 구성 가능)
+                        512GB SSD 저장 장치¹
+                        Radeon Pro 5500 XT(8GB GDDR6 메모리)
+                        Thunderbolt 3 포트 2개
+                        True Tone 기술이 탑재된 Retina 5K 5120 x 2880 P3 디스플레이(Nano-texture 글래스로 선택 가능)
+                        """,
+                         category: "Mac",
+                         price: 3_120_000),
+            AppleProduct(name: "Mac Pro",
+                         summary: """
+                        3.5GHz 8코어 Intel Xeon W 프로세서(최대 4.0GHz Turbo Boost)
+                        32GB(4x8GB) DDR4 ECC 메모리
+                        Radeon Pro 580X(8GB GDDR5 메모리)
+                        256GB SSD 저장 장치
+                        발판 달린 스테인리스 스틸 프레임
+                        """,
+                         category: "Mac",
+                         price: 6_300_000),
+            AppleProduct(name: "Mac mini",
+                         summary: """
+                        Apple M1 칩(8코어 CPU, 8코어 GPU, 16코어 Neural Engine)
+                        8GB 통합 메모리
+                        512GB SSD 저장 장치¹
+                        Gigabit Ethernet
+                        """,
+                         category: "Mac",
+                         price: 1_160_000),
+            AppleProduct(name: "iPad Pro 12.9\"",
+                         summary: """
+                        실버 / 스페이스 그레이
+                        1TB
+                        Wi-Fi + Cellular
+                        """,
+                         category: "iPad",
+                         price: 2_470_000),
+            AppleProduct(name: "iPad Air",
+                         summary: """
+                        실버 / 스페이스 그레이 / 골드
+                        256GB
+                        Wi-Fi + Cellular
+                        """,
+                         category: "iPad",
+                         price: 999_000),
+            AppleProduct(name: "iPad",
+                         summary: """
+                        실버 / 스페이스 그레이 / 골드
+                        128GB
+                        Wi-Fi + Cellular
+                        """,
+                         category: "iPad",
+                         price: 720_000),
+            AppleProduct(name: "Apple Pencil",
+                         summary: """
+                        호환 기기:
+                        12.9형 iPad Pro(3세대)
+                        11형 iPad Pro
+                        """,
+                         category: "iPad",
+                         price: 159_000),
+            AppleProduct(name: "iPhone 13",
+                         summary: """
+                        6.1" Super Retina XDR 디스플레이
+                        스타라이트, 미드나이트, 블루, 핑크, Product RED
+                        A15 Bionic 칩
+                        256GB
+                        듀얼 12MP 카메라 시스템: 와이드, 울트라 와이드 카메라
+                        IEC 규격 60529하의 IP68 등급 획득(최대 수심 6m, 최대 30분)
+                        """,
+                         category: "iPhone",
+                         price: 1_230_000),
+            AppleProduct(name: "iPhone 13 Pro Max",
+                         summary: """
+                        6.7" ProMotion 기술이 적용된 Super Retina XDR 디스플레이
+                        그래파이트, 골드, 실버, 시에라 블루
+                        A15 Bionic 칩
+                        256GB
+                        프로급 12MP 카메라 시스템: 망원, 와이드, 울트라 와이드 카메라
+                        IEC 규격 60529하의 IP68 등급 획득(최대 수심 6m, 최대 30분)
+                        """,
+                         category: "iPhone",
+                         price: 1_630_000),
+            AppleProduct(name: "iPhone 13 Pro",
+                         summary: """
+                        6.1" ProMotion 기술이 적용된 Super Retina XDR 디스플레이
+                        그래파이트, 골드, 실버, 시에라 블루
+                        A15 Bionic 칩
+                        256GB
+                        프로급 12MP 카메라 시스템: 망원, 와이드, 울트라 와이드 카메라
+                        IEC 규격 60529하의 IP68 등급 획득(최대 수심 6m, 최대 30분)
+                        """,
+                         category: "iPhone",
+                         price: 1_490_000),
+            
+            AppleProduct(name: "Apple Watch Series 7",
+                         summary: """
+                        45mm
+                        상시표시형 Retina 디스플레이
+                        알루미늄 / 스텐인리스 스틸 / 티타늄
+                        GPS + Cellular
+                        """,
+                         category: "Apple Watch",
+                         price: 659_000)
+        ]
+        
     }
 }
