@@ -8,18 +8,36 @@
 import SwiftUI
 
 struct EmojiView: View {
+    
     let emoji:String
+    
+    @Environment(\.dismiss) var dismiss
     
     init(emoji: String) {
         self.emoji = emoji
     }
     
     var body: some View {
-        Text(emoji)
-            .font(.system(size: 100))
-            .frame(width: 150, height: 150)
-            .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-            .clipShape(Circle())
+        
+        VStack {
+            Text(emoji)
+                .font(.system(size: 100))
+                .frame(width: 150, height: 150)
+                .background(Color(red: 0.85, green: 0.85, blue: 0.85))
+                .clipShape(Circle())
+                .toolbar {
+                    Button {
+                        dismiss()
+                    } label: {
+                        Text("close")
+                    }
+                }
+            
+            NavigationLink("Show") {
+                EmojiView(emoji: emoji)
+            }
+            .padding()
+        }
     }
 }
 

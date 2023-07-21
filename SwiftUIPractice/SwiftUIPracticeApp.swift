@@ -19,7 +19,7 @@ struct MyScene : Scene {
     @StateObject var generator:RandomNumberGenerator = RandomNumberGenerator()
     var body: some Scene {
         WindowGroup {
-            SearchPlacement()
+            Tab_Tutorials()
         }
     }
 }
