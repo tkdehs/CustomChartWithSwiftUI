@@ -45,6 +45,9 @@
 		F2AC44952A6A5587001452DA /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44942A6A5587001452DA /* Tab.swift */; };
 		F2AC44972A6A55AA001452DA /* TabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44962A6A55AA001452DA /* TabScene.swift */; };
 		F2AC449C2A6A5AE2001452DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AC449B2A6A5AE2001452DA /* Preview Assets.xcassets */; };
+		F2AC449E2A6A5B37001452DA /* TabGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC449D2A6A5B37001452DA /* TabGesture.swift */; };
+		F2AC44A02A6A60A4001452DA /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC449F2A6A60A4001452DA /* LongPressGesture.swift */; };
+		F2AC44A22A6A6367001452DA /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44A12A6A6367001452DA /* DragGesture.swift */; };
 		F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */; };
 		F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62D2A5E860800896BE4 /* ContentView.swift */; };
 		F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA62F2A5E860900896BE4 /* Assets.xcassets */; };
@@ -140,6 +143,9 @@
 		F2AC44942A6A5587001452DA /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		F2AC44962A6A55AA001452DA /* TabScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScene.swift; sourceTree = "<group>"; };
 		F2AC449B2A6A5AE2001452DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2AC449D2A6A5B37001452DA /* TabGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGesture.swift; sourceTree = "<group>"; };
+		F2AC449F2A6A60A4001452DA /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		F2AC44A12A6A6367001452DA /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
 		F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		F2BAA62D2A5E860800896BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -312,18 +318,14 @@
 			path = Tab;
 			sourceTree = "<group>";
 		};
-		F2AC44982A6A5A59001452DA /* New Group */ = {
+		F2AC44982A6A5A59001452DA /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC449D2A6A5B37001452DA /* TabGesture.swift */,
+				F2AC449F2A6A60A4001452DA /* LongPressGesture.swift */,
+				F2AC44A12A6A6367001452DA /* DragGesture.swift */,
 			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
-		F2AC44992A6A5A6A001452DA /* New Group1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group1";
+			name = Gestures;
 			sourceTree = "<group>";
 		};
 		F2AC449A2A6A5AE2001452DA /* Preview Content */ = {
@@ -357,8 +359,6 @@
 		F2BAA62A2A5E860800896BE4 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC44992A6A5A6A001452DA /* New Group1 */,
-				F2AC44982A6A5A59001452DA /* New Group */,
 				F2BAA6902A5E8EAF00896BE4 /* Info.plist */,
 				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
@@ -369,6 +369,7 @@
 				F2AC44872A68D02A001452DA /* Animation */,
 				F2AC448E2A6A1412001452DA /* Navigation */,
 				F2AC44932A6A5525001452DA /* Tab */,
+				F2AC44982A6A5A59001452DA /* Gestures */,
 				F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
@@ -636,6 +637,7 @@
 				F2AC44722A6769D4001452DA /* MultiSelection.swift in Sources */,
 				F2C1E49F2A651774007F541D /* Overlay.swift in Sources */,
 				F2E7E7022A6629CA00105359 /* InteractiveDismiss.swift in Sources */,
+				F2AC44A22A6A6367001452DA /* DragGesture.swift in Sources */,
 				F2BAA6AA2A61169100896BE4 /* Sections.swift in Sources */,
 				F26F70DC2A665E3700E33C6C /* EnviromentObjects.swift in Sources */,
 				F2BAA6A12A60ED7400896BE4 /* VStack.swift in Sources */,
@@ -651,10 +653,12 @@
 				F2AC44922A6A30C7001452DA /* MultiColumnView.swift in Sources */,
 				F2AC44802A67CD7F001452DA /* PullToRefresh.swift in Sources */,
 				F2AC44652A667991001452DA /* IdentifiableList.swift in Sources */,
+				F2AC449E2A6A5B37001452DA /* TabGesture.swift in Sources */,
 				F2E7E7002A66255D00105359 /* Popover.swift in Sources */,
 				F26F70D12A664DEA00E33C6C /* TwoWayBinding.swift in Sources */,
 				F2AC44702A6763F7001452DA /* SingleSelection.swift in Sources */,
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
+				F2AC44A02A6A60A4001452DA /* LongPressGesture.swift in Sources */,
 				F2BAA6A82A6114C300896BE4 /* NumberView.swift in Sources */,
 				F2C1E49B2A64D2F2007F541D /* URLImage.swift in Sources */,
 				F2AC44902A6A142E001452DA /* MainNavView.swift in Sources */,
