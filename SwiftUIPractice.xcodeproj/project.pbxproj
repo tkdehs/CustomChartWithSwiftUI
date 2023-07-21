@@ -40,10 +40,14 @@
 		F2AC44892A68D04B001452DA /* AnimationBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44882A68D04B001452DA /* AnimationBasics.swift */; };
 		F2AC448B2A68D34A001452DA /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC448A2A68D34A001452DA /* Repeat.swift */; };
 		F2AC448D2A68D538001452DA /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC448C2A68D538001452DA /* SpringAnimation.swift */; };
+		F2AC44902A6A142E001452DA /* MainNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC448F2A6A142E001452DA /* MainNavView.swift */; };
+		F2AC44922A6A30C7001452DA /* MultiColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44912A6A30C7001452DA /* MultiColumnView.swift */; };
+		F2AC44952A6A5587001452DA /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44942A6A5587001452DA /* Tab.swift */; };
+		F2AC44972A6A55AA001452DA /* TabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC44962A6A55AA001452DA /* TabScene.swift */; };
+		F2AC449C2A6A5AE2001452DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AC449B2A6A5AE2001452DA /* Preview Assets.xcassets */; };
 		F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */; };
 		F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA62D2A5E860800896BE4 /* ContentView.swift */; };
 		F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA62F2A5E860900896BE4 /* Assets.xcassets */; };
-		F2BAA6332A5E860900896BE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */; };
 		F2BAA63D2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */; };
 		F2BAA6472A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6462A5E860900896BE4 /* CustomChartWithSwiftUIUITests.swift */; };
 		F2BAA6492A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAA6482A5E860900896BE4 /* CustomChartWithSwiftUIUITestsLaunchTests.swift */; };
@@ -131,11 +135,15 @@
 		F2AC44882A68D04B001452DA /* AnimationBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasics.swift; sourceTree = "<group>"; };
 		F2AC448A2A68D34A001452DA /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
 		F2AC448C2A68D538001452DA /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		F2AC448F2A6A142E001452DA /* MainNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavView.swift; sourceTree = "<group>"; };
+		F2AC44912A6A30C7001452DA /* MultiColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnView.swift; sourceTree = "<group>"; };
+		F2AC44942A6A5587001452DA /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		F2AC44962A6A55AA001452DA /* TabScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScene.swift; sourceTree = "<group>"; };
+		F2AC449B2A6A5AE2001452DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2BAA6282A5E860800896BE4 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		F2BAA62D2A5E860800896BE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2BAA62F2A5E860900896BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2BAA6382A5E860900896BE4 /* SwiftUIPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAA63C2A5E860900896BE4 /* CustomChartWithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartWithSwiftUITests.swift; sourceTree = "<group>"; };
 		F2BAA6422A5E860900896BE4 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -286,6 +294,46 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		F2AC448E2A6A1412001452DA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC448F2A6A142E001452DA /* MainNavView.swift */,
+				F2AC44912A6A30C7001452DA /* MultiColumnView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F2AC44932A6A5525001452DA /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC44942A6A5587001452DA /* Tab.swift */,
+				F2AC44962A6A55AA001452DA /* TabScene.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		F2AC44982A6A5A59001452DA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		F2AC44992A6A5A6A001452DA /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		F2AC449A2A6A5AE2001452DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC449B2A6A5AE2001452DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		F2BAA61F2A5E860800896BE4 = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +357,8 @@
 		F2BAA62A2A5E860800896BE4 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC44992A6A5A6A001452DA /* New Group1 */,
+				F2AC44982A6A5A59001452DA /* New Group */,
 				F2BAA6902A5E8EAF00896BE4 /* Info.plist */,
 				F2BAA6682A5E8D3D00896BE4 /* Common */,
 				F2BAA6602A5E878000896BE4 /* Util */,
@@ -317,20 +367,14 @@
 				F26F70CC2A6645F100E33C6C /* StateAndBinding */,
 				F2AC445A2A666DF8001452DA /* List */,
 				F2AC44872A68D02A001452DA /* Animation */,
+				F2AC448E2A6A1412001452DA /* Navigation */,
+				F2AC44932A6A5525001452DA /* Tab */,
 				F2BAA62B2A5E860800896BE4 /* SwiftUIPracticeApp.swift */,
 				F2BAA62D2A5E860800896BE4 /* ContentView.swift */,
 				F2BAA62F2A5E860900896BE4 /* Assets.xcassets */,
-				F2BAA6312A5E860900896BE4 /* Preview Content */,
+				F2AC449A2A6A5AE2001452DA /* Preview Content */,
 			);
 			path = SwiftUIPractice;
-			sourceTree = "<group>";
-		};
-		F2BAA6312A5E860900896BE4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F2BAA6322A5E860900896BE4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		F2BAA63B2A5E860900896BE4 /* SwiftUIPracticeTests */ = {
@@ -561,9 +605,9 @@
 			files = (
 				F2BAA6962A5E90D400896BE4 /* NotoSansKR-Medium.otf in Resources */,
 				F2BAA6952A5E90D400896BE4 /* NotoSansKR-Black.otf in Resources */,
-				F2BAA6332A5E860900896BE4 /* Preview Assets.xcassets in Resources */,
 				F2BAA6302A5E860900896BE4 /* Assets.xcassets in Resources */,
 				F2BAA6982A5E90D400896BE4 /* NotoSansKR-Bold.otf in Resources */,
+				F2AC449C2A6A5AE2001452DA /* Preview Assets.xcassets in Resources */,
 				F2BAA6972A5E90D400896BE4 /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +639,7 @@
 				F2BAA6AA2A61169100896BE4 /* Sections.swift in Sources */,
 				F26F70DC2A665E3700E33C6C /* EnviromentObjects.swift in Sources */,
 				F2BAA6A12A60ED7400896BE4 /* VStack.swift in Sources */,
+				F2AC44952A6A5587001452DA /* Tab.swift in Sources */,
 				F2BAA6AE2A6122DF00896BE4 /* SectionHeaderView.swift in Sources */,
 				F2AC447A2A679079001452DA /* Grid.swift in Sources */,
 				F2C1E4972A64CD10007F541D /* Group.swift in Sources */,
@@ -603,6 +648,7 @@
 				F2C1E4992A64D0DA007F541D /* ScrollView.swift in Sources */,
 				F2AC44692A667AE0001452DA /* CategorizedProduct.swift in Sources */,
 				F2AC44842A67D36A001452DA /* Search.swift in Sources */,
+				F2AC44922A6A30C7001452DA /* MultiColumnView.swift in Sources */,
 				F2AC44802A67CD7F001452DA /* PullToRefresh.swift in Sources */,
 				F2AC44652A667991001452DA /* IdentifiableList.swift in Sources */,
 				F2E7E7002A66255D00105359 /* Popover.swift in Sources */,
@@ -611,6 +657,7 @@
 				F2BAA62E2A5E860800896BE4 /* ContentView.swift in Sources */,
 				F2BAA6A82A6114C300896BE4 /* NumberView.swift in Sources */,
 				F2C1E49B2A64D2F2007F541D /* URLImage.swift in Sources */,
+				F2AC44902A6A142E001452DA /* MainNavView.swift in Sources */,
 				F2BAA6AC2A61181C00896BE4 /* EmojiView.swift in Sources */,
 				F2BAA6622A5E879300896BE4 /* Then.swift in Sources */,
 				F2C1E4A92A652DF7007F541D /* ColorData.swift in Sources */,
@@ -632,6 +679,7 @@
 				F26F70D62A66546400E33C6C /* ViewModel.swift in Sources */,
 				F2BAA69F2A60E91000896BE4 /* HStack.swift in Sources */,
 				F2AC44822A67CF8C001452DA /* SwipeAction.swift in Sources */,
+				F2AC44972A6A55AA001452DA /* TabScene.swift in Sources */,
 				F2AC44892A68D04B001452DA /* AnimationBasics.swift in Sources */,
 				F2BAA66A2A5E8D5800896BE4 /* Define.swift in Sources */,
 				F2BAA62C2A5E860800896BE4 /* SwiftUIPracticeApp.swift in Sources */,
